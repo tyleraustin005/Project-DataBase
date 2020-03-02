@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ScoreSheets">
+      <UniqueIdentifier>{e7d7286e-9bd0-4405-b6e4-29f49c589536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ScoreSheets">
+      <UniqueIdentifier>{734d5dd7-a923-4615-8f7c-4d4cc5499d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Players">
+      <UniqueIdentifier>{a41f63a4-d640-4e00-99c5-e3a7984477bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Players">
+      <UniqueIdentifier>{a6a65334-3257-4344-b8ed-98c3afad3340}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rows">
+      <UniqueIdentifier>{e51846c9-4c9b-4ad6-9fa9-58ac4e3450f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DiceHeaders">
+      <UniqueIdentifier>{865f95ba-c93c-44fa-af7e-14f1a1375ff8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rows">
+      <UniqueIdentifier>{11f33502-825d-4d75-b4cd-c9b51630a05c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DiceClasses">
+      <UniqueIdentifier>{6b2b32ad-3620-456f-b5c4-f400340eea58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreSheet.cpp">
+      <Filter>Source Files\ScoreSheets</Filter>
+    </ClCompile>
+    <ClCompile Include="QwixxScoreSheet.cpp">
+      <Filter>Source Files\ScoreSheets</Filter>
+    </ClCompile>
+    <ClCompile Include="QwintoScoreSheet.cpp">
+      <Filter>Source Files\ScoreSheets</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="QwintoPlayer.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="QwixxPlayer.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="Colour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QwintoRow.cpp">
+      <Filter>Source Files\Rows</Filter>
+    </ClCompile>
+    <ClCompile Include="QwixxRow.cpp">
+      <Filter>Source Files\Rows</Filter>
+    </ClCompile>
+    <ClCompile Include="Dice.cpp">
+      <Filter>Source Files\DiceClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomDice.cpp">
+      <Filter>Source Files\DiceClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="RollofDice.cpp">
+      <Filter>Source Files\DiceClasses</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QwixxScoreSheet.h">
+      <Filter>Header Files\ScoreSheets</Filter>
+    </ClInclude>
+    <ClInclude Include="QwintoScoreSheet.h">
+      <Filter>Header Files\ScoreSheets</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreSheet.h">
+      <Filter>Header Files\ScoreSheets</Filter>
+    </ClInclude>
+    <ClInclude Include="QwintoPlayer.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="QwixxPlayer.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="QwintoRow.h">
+      <Filter>Header Files\Rows</Filter>
+    </ClInclude>
+    <ClInclude Include="QwixxRow.h">
+      <Filter>Header Files\Rows</Filter>
+    </ClInclude>
+    <ClInclude Include="Colour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dice.h">
+      <Filter>Header Files\DiceHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomDice.h">
+      <Filter>Header Files\DiceHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="RollofDice.h">
+      <Filter>Header Files\DiceHeaders</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
